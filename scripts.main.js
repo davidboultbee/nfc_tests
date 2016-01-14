@@ -8,14 +8,18 @@ $(document).ready(function(){
 	console.log('device: '+sDeviceID);
 			
 	//window.plugins.insomnia.keepAwake();
+*/
+	alert('document ready');
 	nfc.addNdefListener(function(oEvent){
 		alert('tag detected');
 	}, function(){
 		//success
-	}, function(){
+		alert('added listener');
+	}, function(oError){
+		alert('Error adding NDEF listener ' + JSON.stringify(error));
 		//failure
 	});
 	
 	alert('hello world');
-*/
+	
 });
