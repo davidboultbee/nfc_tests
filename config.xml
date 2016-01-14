@@ -19,9 +19,8 @@
     
     <preference name="permissions" value="none" />    
     
-    <gap:plugin name="phonegap-nfc" source="npm" spec="0.6.6" />
-    
-    
+	<plugin name="com.chariotsolutions.nfc.plugin" spec="0.5.1" source="pgb" />
+       
     <content src="index.html" />    
 
 </widget>
