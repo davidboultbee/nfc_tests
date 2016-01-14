@@ -8,7 +8,7 @@ $(document).ready(function(){
 			
 	//window.plugins.insomnia.keepAwake();
 	nfc.addNdefListener(function(){
-	
+		alert('tag detected');
 	}, function(){
 		//success
 	}, function(){
