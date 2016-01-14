@@ -11,7 +11,7 @@ $(document).ready(function(){
 */
 	alert('document ready');
 	
-	window.nfc.addNdefListener(function(oEvent){
+	nfc.addNdefListener(function(oEvent){
 		alert('tag detected');
 	}, function(){
 		//success
