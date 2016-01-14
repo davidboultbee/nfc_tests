@@ -13,10 +13,15 @@
         An example for phonegap build docs. 
     </description>
 
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Hardeep Shoker 
+    <author href="https://build.phonegap.com" email="dboultbee@gmail.com">
+    	David Boultbee 
     </author>
     
-    <gap:plugin name="phonegap-nfc" source="npm" />
+    <preference name="permissions" value="none" />    
+    
+    <gap:plugin name="phonegap-nfc" source="npm" spec="0.6.6" />
+    
+    
+    <content src="index.html" />    
 
 </widget>

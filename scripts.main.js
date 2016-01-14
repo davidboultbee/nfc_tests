@@ -10,6 +10,7 @@ $(document).ready(function(){
 	//window.plugins.insomnia.keepAwake();
 */
 	alert('document ready');
+	
 	nfc.addNdefListener(function(oEvent){
 		alert('tag detected');
 	}, function(){
