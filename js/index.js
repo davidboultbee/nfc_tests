@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        alert('ready');
         
         // Read NDEF formatted NFC Tags
 		nfc.addNdefListener (
@@ -57,7 +58,8 @@ var app = {
 				alert("Error adding NDEF listener " + JSON.stringify(error));
 			}
 		);
-    },
+    }
+    /*,
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
@@ -69,4 +71,5 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+    */
 };
