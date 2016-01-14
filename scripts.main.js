@@ -7,11 +7,13 @@ $(document).ready(function(){
 	console.log('device: '+sDeviceID);
 			
 	//window.plugins.insomnia.keepAwake();
-	nfc.addNdefListener(function(){
+	nfc.addNdefListener(function(oEvent){
 		alert('tag detected');
 	}, function(){
 		//success
 	}, function(){
 		//failure
 	});
+	
+	alert('hello world');
 });
