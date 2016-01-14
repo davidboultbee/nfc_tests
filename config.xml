@@ -19,26 +19,26 @@
     
     <preference name="permissions" value="none" />    
     
-	<gap:plugin name="com.chariotsolutions.nfc.plugin" spec="0.5.1" source="pgb" />
-	
-	<gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.vibration" />
+	<plugin name="com.chariotsolutions.nfc.plugin" source="pgb" spec="0.5.1" />
+	<plugin name="org.apache.cordova.battery-status" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.camera" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.console" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.contacts" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.device" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.device-motion" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.device-orientation" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.dialogs" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.file" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.file-transfer" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.geolocation" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.globalization" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.media" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.media-capture" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.network-information" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.splashscreen" source="pgb" spec="n/a" />
+	<plugin name="org.apache.cordova.vibration" source="pgb" spec="n/a" />
+
        
     <content src="index.html" />    
 
