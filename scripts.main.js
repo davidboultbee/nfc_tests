@@ -1,17 +1,7 @@
-alert('main loaded');
+var bJQueryDocumentReady=false;
 
 $(document).ready(function(){
-/*
-	var sDeviceID=device.uuid;
-			
-	console.log('hello world');
-	console.log('device: '+sDeviceID);
-			
-	//window.plugins.insomnia.keepAwake();
-*/
-	
-	alert('document ready');
-	
+	bJQueryDocumentReady=true;
 });
 
 // Bind any events that are required on startup. Common events are:
@@ -20,6 +10,12 @@ $(document).ready(function(){
 $(document).on('deviceready',function(){
 	alert('device ready');
 	
+	if(bJQueryDocumentReady)  fThingsToDoWhenReady();
+	else $(document).ready(fThingsToDoWhenReady);
+});
+
+function fThingsToDoWhenReady(){
+
 	// Read NDEF formatted NFC Tags
 	nfc.addNdefListener (
 		function (nfcEvent) {
@@ -41,5 +37,6 @@ $(document).on('deviceready',function(){
 		function (error) { // error callback
 			alert("Error adding NDEF listener " + JSON.stringify(error));
 		}
-	);
-});
+	);	
+
+};
