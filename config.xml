@@ -20,7 +20,6 @@
     <preference name="permissions" value="none" />    
     
 	<plugin name="com.chariotsolutions.nfc.plugin" source="pgb" spec="0.5.1" />
-	<plugin name="org.apache.cordova.battery-status" source="pgb" spec="n/a" />
 	<plugin name="org.apache.cordova.camera" source="pgb" spec="n/a" />
 	<plugin name="org.apache.cordova.console" source="pgb" spec="n/a" />
 	<plugin name="org.apache.cordova.contacts" source="pgb" spec="n/a" />
