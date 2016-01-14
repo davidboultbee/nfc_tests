@@ -13,66 +13,29 @@ body {
 }
 
 body {	
-	/*background:#222222;
-	*/
-	
+	background:#222222;
 }
 
-#carousel {
-	position:absolute;
-	top:0px;
-	left:0px;
-	overflow:hidden;
+#scan_result {
 	width:100%;
-	height:100%;
-}
-
-#carousel.waiting {
-	background:#222222 url('resources.spinner.gif') no-repeat center center;
-}
-
-#carousel .imgHolder {
-	width:100%;
-	height:100%;
-	overflow:hidden;
+	height:76%;
+	top:12%;
+	left:0;
 	position:absolute;
-	top:0;
+}
+
+#scan_result.waiting {	
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url('resources.scan.gif');
+}
+
+#scan_result .text {
+	position:absolute;
+	bottom:0;
 	left:0;
 	
-}
-
-#flash {
-	position:absolute;
-	top:0;
-	left:0;
 	width:100%;
-	height:100%;
-	background:white url('images.slyncstagram.png') no-repeat bottom right;
-	background-size:600px;
-	padding:10px;
-}
-
-#caption {
-	width:100%;
-	height:100%;
-	position:absolute;
-	top:0;
-	left:0;
-	background-color:white;
-	font-family:"Arial, Sans-Serif";
-	text-transform:lowercase;
-	font-weight:bold;
-	font-size:70pt;
-	padding-top:20px;
-	padding-left:20px;
-	color:black;
-	opacity:0.5;
-}
-
-body #caption {
-	display:none;
-}
-
-.imgHolder #caption {
-	display:block;
+	height:50px;
+	color:#fefefe;
 }

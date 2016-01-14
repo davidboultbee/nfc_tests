@@ -8,8 +8,6 @@ $(document).ready(function(){
 // 'load', 'deviceready', 'offline', and 'online'.
 
 $(document).on('deviceready',function(){
-	alert('device ready');
-	
 	if(bJQueryDocumentReady)  fThingsToDoWhenReady();
 	else $(document).ready(fThingsToDoWhenReady);
 });
@@ -21,11 +19,6 @@ function fThingsToDoWhenReady(){
 		function (nfcEvent) {
 			var tag = nfcEvent.tag,
 				ndefMessage = tag.ndefMessage;
-
-			// dump the raw json of the message
-			// note: real code will need to decode
-			// the payload from each record
-			alert(JSON.stringify(ndefMessage));
 
 			// assuming the first record in the message has 
 			// a payload that can be converted to a string.
