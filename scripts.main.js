@@ -1,6 +1,7 @@
+alert('main loaded');
 
 $(document).ready(function(){
-
+/*
 	var sDeviceID=device.uuid;
 			
 	console.log('hello world');
@@ -16,4 +17,5 @@ $(document).ready(function(){
 	});
 	
 	alert('hello world');
+*/
 });
