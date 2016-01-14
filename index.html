@@ -27,21 +27,20 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <style>
-        	@import url('styles.css');
+        	@import url('styles.ripple.css');
+        	@import url('styles.main.css');
         </style>
         
-        <title>Slyncstagram</title>
+        <title>NFC test</title>
         
         <script type="text/javascript" src="cordova.js"></script>
-        <script src="nfc.js"></script>
         <script type="text/javascript" src="scripts.jquery.js"></script>
         <script type="text/javascript" src="scripts.utils.js"></script>
         <script type="text/javascript" src="scripts.main.js"></script>
         
     </head>
-    <body>
-    
-    	<div id="scan_result" class="waiting">
+    <body>    
+    	<div id="scan_result" class="uil-ripple-css">
     		<div class="text">waiting to scan</div>
     	</div>
           

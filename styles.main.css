@@ -24,12 +24,6 @@ body {
 	position:absolute;
 }
 
-#scan_result.waiting {	
-	background-repeat:no-repeat;
-	background-position:center center;
-	background-image:url('resources.scan.gif');
-}
-
 #scan_result .text {
 	position:absolute;
 	bottom:0;

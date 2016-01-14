@@ -2,6 +2,9 @@ var bJQueryDocumentReady=false;
 
 $(document).ready(function(){
 	bJQueryDocumentReady=true;
+	
+	$('.uil-ripple-css').append('<div></div>');
+	$('.uil-ripple-css').append('<div></div>');
 });
 
 // Bind any events that are required on startup. Common events are:
